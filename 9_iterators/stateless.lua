@@ -8,7 +8,6 @@ using a simple function that prints the squares of n numbers.
 
 --]]
 
-print("Stateless iterator")
 
 function Square(iteratorMaxCount, currentNumber)
     --[[

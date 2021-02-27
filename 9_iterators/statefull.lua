@@ -10,8 +10,6 @@ Let us now see an example of creating our own iterator in which we will be using
 
 --]]
 
-print("Stateful iterator")
-
 Array = {"Lua", "Notes"}
 
 function ElementIterator(collection)
