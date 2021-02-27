@@ -20,11 +20,11 @@ until(condition)
 --]]
 
 
-a = 10
+A = 10
 repeat
-	print("value of a:", a)
-	a = a + 1
-until(a > 15) -- will run until a == 15
+	print("value of A:", A)
+	A = A + 1
+until(A > 15) -- will run until a == 15
 
 --[[
 try change '>' to '<' sign. The repeat loop will run a first time
@@ -33,12 +33,10 @@ then evaluate the condition, then stop.
 
 
 -- same, but written using while loop
-b = 10
-
-while (b < 15)
-do
-	print("value of b:", b)
-	b = b + 1
+B = 10
+while (B < 15) do
+	print("value of B:", B)
+	B = B + 1
 end -- will run until b == 14
 
 --[[
@@ -48,8 +46,7 @@ condition was not met.
 
 
 -- same, but written using for loop
-for c = 10, 15, 1
-do
+for c = 10, 15, 1 do
 	print("value of c:", c)
 end
 

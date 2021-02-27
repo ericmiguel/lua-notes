@@ -19,12 +19,12 @@ false, the program control passes to the line immediately following the loop.
 --]]
 
 
-a = 10
+A = 10
 
-while(a < 20)
+while(A < 20)
 do
 	print("value of a:",a)
-	a = a + 1
+	A = A + 1
 end
 
 

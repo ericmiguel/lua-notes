@@ -1,6 +1,6 @@
 # Lua Notes
 
-My notes on learning Lua. 100% for fun.
+My (100% for fun) notes on learning Lua.
 
 Lua is an open source language built on top of C programming language. Lua has its value across multiple platforms ranging from large server systems to small mobile applications. Lua if often used as an embedded programming language.
 
